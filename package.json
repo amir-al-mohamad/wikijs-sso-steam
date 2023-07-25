@@ -1,0 +1,25 @@
+{
+  "name": "wikijs-sso-steam",
+  "version": "1.0.0",
+  "author": "Amir Al-Mohamad <aamohamad0001@gmail.com>",
+  "description": "Wiki.js Steam SSO",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amir-al-mohamad/wikijs-sso-steam.git"
+  },
+  "main": "authentication.js",
+  "keywords": [
+    "wiki.js",
+    "plugin",
+    "steam",
+    "sso",
+    "single sign on",
+    "registration"
+  ],
+  "license": "MIT",
+  "readme": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "passport-steam": "^1.0.18"
+  }
+}

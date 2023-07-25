@@ -1,0 +1,15 @@
+key: steam
+title: Steam
+description: Steam is a proprietary digital distribution platform and social networking service.
+author: Amir Al-Mohamad <aamohamad0001@gmail.com>
+logo: https://upload.wikimedia.org/wikipedia/commons/c/c1/Steam_2016_logo_black.svg
+color: blue darken-1
+website: https://steamcommunity.com/dev/apikey/
+isAvailable: true
+useForm: false
+props:
+  apiKey:
+    type: String
+    title: API Key
+    hint: Application API Key
+    order: 1
