@@ -16,7 +16,6 @@ module.exports = {
       passReqToCallback: true
     }, async (req, _identifier, profile, cb) => {
       try {
-        console.log(conf)
         const user = await WIKI.models.users.processProfile({
           providerKey: req.params.strategy,
           profile: {
